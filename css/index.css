@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Sora:wght@400;500&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Sora', sans-serif;
+}
+
+.header {
+  height: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: flex-end;
+  background-color: #ffffff;
+}
+
+a {
+  margin-left: 20px;
+  margin-right: 20px;
+  position: relative;
+  bottom: 75px;
+}
+
+.logo {
+  position: relative;
+  bottom: 7px;
+  width: 135px;
+  height: 135px;
+}
+
+.fas {
+  margin-right: 6px;
+}
+
+.buscador {
+  position: absolute;
+  left: 10px;
+  top: 35px;
+  bottom: 0;
+}
+
+.search {
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  border: 2px solid #000000;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.link {
+  padding: 12px;
+  background-color: #e92502;
+  font-size: 16px;
+  font-family: 'Sora', sans-serif;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: #e92502;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+}
+
+.bx {
+  padding-right: 5px;
+}
+
+.contend-banner {
+  width: 100%;
+  height: 600px;
+  background: url(/assets/hakon-sataoen-qyfco1nfMtg-unsplash.jpg) no-repeat center center;
+  background-size: cover;
+  -o-object-fit: cover;
+  object-fit: cover;
+  margin-bottom: 50px;
+}
+
+.contend-titulo {
+  color: #ffffff;
+  font-size: 60px;
+  line-height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contend-sec {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (2fr)[3];
+      grid-template-columns: repeat(3, 2fr);
+}
+
+.contend-card {
+  text-align: center;
+  margin: auto;
+  width: 400px;
+  height: 550px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 6px #000000;
+  box-shadow: 0px 0px 6px #000000;
+}
+
+.contend-texto {
+  padding: 10px;
+  text-align: justify;
+}
+
+.contend-card-img {
+  margin-bottom: 10px;
+  width: 100%;
+  height: 200px;
+  border-radius: 10px 10px 0px 0px;
+  background: url(/assets/jake-givens-iR8m2RRo-z4-unsplash.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.contend-card-img2 {
+  margin-bottom: 10px;
+  width: 100%;
+  height: 200px;
+  border-radius: 10px 10px 0px 0px;
+  background: url(/assets/joshua-koblin-eqW1MPinEV4-unsplash.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.contend-card-img3 {
+  margin-bottom: 10px;
+  width: 100%;
+  height: 200px;
+  border-radius: 10px 10px 0px 0px;
+  background: url(/assets/marc-kleen-h8UQV31X5AI-unsplash.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.contend-banner-productos {
+  width: 100%;
+  height: 560px;
+  background: url(/assets/oli-woodman-fwYZ3B_QQco-unsplash.jpg) no-repeat center center;
+  background-size: cover;
+  -o-object-fit: cover;
+  object-fit: cover;
+  margin-bottom: 50px;
+}
+
+.beat {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  height: 250px;
+  background: url(/assets/beat.jpg) no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.aveo {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  height: 250px;
+  background: url(/assets/aveo.jpg) no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.separador {
+  padding: 20px;
+}
+
+.toyota {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  height: 250px;
+  background: url(/assets/toyota.jpg) no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.contend-productos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (3fr)[3];
+      grid-template-columns: repeat(3, 3fr);
+}
+
+.card-productos {
+  margin-left: 25px;
+  text-align: center;
+  width: 400px;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+  -webkit-box-shadow: 0px 0px 6px #000000;
+  box-shadow: 0px 0px 6px #000000;
+}
+
+.card-text {
+  padding: 10px;
+  text-align: justify;
+}
+
+.card-precio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.wrap {
+  margin-left: 40px;
+}
+
+.btn-card {
+  margin-top: 15px;
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  background-color: #e92502;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+}
+
+.site-footer {
+  background-color: #26272b;
+  padding: 35px 0 20px;
+  line-height: 24px;
+  color: #858585;
+}
+
+.fotter-title {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 26px;
+  font-family: 'Sora', sans-serif;
+}
+
+.text-justify {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 19px;
+}
